@@ -1,0 +1,381 @@
+<?php /* Smarty version Smarty-3.1.20, created on 2014-12-22 14:00:08
+         compiled from "E:\XAMPP\htdocs\content_manage_system\app\views\admin\index.html" */ ?>
+<?php /*%%SmartyHeaderCode:213015497a2f04a6388-67158984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '89eec5598a381ce98e2367bdde55b935bba245c2' => 
+    array (
+      0 => 'E:\\XAMPP\\htdocs\\content_manage_system\\app\\views\\admin\\index.html',
+      1 => 1419256781,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '213015497a2f04a6388-67158984',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.20',
+  'unifunc' => 'content_5497a2f05075a1_68672714',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5497a2f05075a1_68672714')) {function content_5497a2f05075a1_68672714($_smarty_tpl) {?><!DOCTYPE html>
+<html>
+<head>
+    <title>内容管理系统</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/assets/bootstrap/css/bootstrap.min.css">
+    <style>
+        /*.container-fluid {*/
+            /*background: #6d5c7d;*/
+        /*}*/
+
+        .panel-body ul {
+            list-style: none;
+        }
+
+        .panel-body ul li a {
+            display: block;
+            padding: 6px 0;
+
+        }
+        .panel-body ul li a:hover {
+            background:#3e3d40;
+            color:#ede9f2;
+        }
+
+        .panel-title > a {
+            display: block;
+        }
+        .well{
+            border-bottom: 3px solid #2E363F;
+        }
+        /*.imformation {*/
+            /*border-bottom: 3px solid #2E363F;*/
+        /*}*/
+
+        .system_imfomation {
+            margin-top: 50px;
+        }
+        .butt{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <!-- 顶部导航 -->
+    <nav class="navbar navbar-default alert-success " role="navigation">
+        <div class="container-fluid ">
+            <div class="navbar-header ">
+                <a class="navbar-brand" href="#">内容管理系统</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                                class="glyphicon glyphicon-user"></span> 尊敬的Admin <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> 密码修改</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-off"></span> 安全退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 顶部导航 end -->
+
+    <!-- 正文 begin -->
+    <div class="rows">
+        <div class="col-md-2">
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                               aria-controls="collapseOne">
+                                <span class="glyphicon glyphicon-edit"></span> 内容管理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <ul class="list-unstyled">
+                                <li><a href="">文章列表</a></li>
+                                <li><a href="">栏目管理</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="glyphicon glyphicon-file"></span> 文件管理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                               aria-expanded="false" aria-controls="collapseThree">
+                                <span class="glyphicon glyphicon-star"></span> 友情链接管理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="glyphicon glyphicon-cloud"></span> 留言管理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="glyphicon glyphicon-user"></span> 学生和课程
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="glyphicon glyphicon-cog"></span> 系统设置
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="glyphicon glyphicon-refresh"></span> 清除缓存
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a class="collapsed">
+                                首页
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-10">
+            <div class="well">
+                <ol class="breadcrumb">
+                    <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                </ol>
+                <h2 >我的信息</h2>
+                <div class="rows  ">
+                    <div class="col-md-2 butt btn-lg">
+                        <button type="button" class="btn btn-primary btn-lg active">内容管理</button>
+                    </div>
+                    <div class="col-md-2 butt btn-lg">
+                        <button type="button" class="btn btn-primary btn-lg active">文件管理</button>
+                    </div>
+                    <div class="col-md-2 butt btn-lg">
+                        <button type="button" class="btn btn-primary btn-lg active">学生管理</button>
+                    </div>
+                    <div class="col-md-2 butt btn-lg">
+                        <button type="button" class="btn btn-primary btn-lg active">留言管理</button>
+                    </div>
+                    <div class="col-md-2 butt btn-lg">
+                        <button type="button" class="btn btn-primary btn-lg active">清除缓存</button>
+                    </div>
+                </div>
+
+                <div class="rows">
+                    <div class="col-md-6">
+                        <table class="table" id="tab">
+                            <h5 class="system_imfomation">系统信息</h5>
+                            <tbody>
+                            <tr>
+                                <td>长乐CMS版本:</td>
+                                <td>1.1 [访问官网]</td>
+                            </tr>
+                            <tr>
+                                <td>操作系统:</td>
+                                <td>Linux</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Larry</td>
+                            </tr>
+                            </tbody>
+                            <tr>
+                                <td>运行环境:</td>
+                                <td>nginx/1.2.1</td>
+                            </tr>
+                            <tr>
+                                <td>PHP运行方式:</td>
+                                <td>fpm-fcgi</td>
+                            </tr>
+                            <tr>
+                                <td>mysql版本</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>上传限制:</td>
+                                <td>2M</td>
+                            </tr>
+                            <tr>
+                                <td>核心版本:</td>
+                                <td>3.1.3</td>
+                            </tr>
+                            <tr>
+                                <td>已用空间:</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-bordered">
+                            <h5 class="system_imfomation">用户信息</h5>
+
+                            <tbody>
+                            <tr>
+                                <td>姓名:</td>
+                                <td>Table cell</td>
+                            </tr>
+                            <tr>
+                                <td>网站名称:</td>
+                                <td>Table cell</td>
+                            </tr>
+                            <tr>
+                                <td>ICP备案号:</td>
+                                <td>鄂ICP备13016268号-2</td>
+                            </tr>
+                            <tr>
+                                <td>QQ:</td>
+                                <td>422714992</td>
+                            </tr>
+                            <tr>
+                                <td>新浪微博:</td>
+                                <td>http://weibo.com/pdcanon</td>
+                            </tr>
+                            <tr>
+                                <td>E-mail:</td>
+                                <td>422714992@qq.com</td>
+                            </tr>
+                            <tr>
+                                <td>介绍信息:</td>
+                                <td>鄂ICP备13016268号-2</td>
+                            </tr>
+                            <tr>
+                                <td>联系电话:</td>
+                                <td>鄂ICP备13016268号-2</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 正文 end -->
+</div>
+
+<script src="app/assets/js/jquery-2.1.3.min.js"></script>
+<script src="app/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html><?php }} ?>
